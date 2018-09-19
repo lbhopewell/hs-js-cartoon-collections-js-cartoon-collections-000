@@ -1,17 +1,27 @@
 function dwarfRollCall(dwarves) {
+<<<<<<< HEAD
   var dwarvesString = "";
   for(let i=0; i < dwarves.length; i++){
     dwarvesString += i+1+". "+dwarves[i]+" ";
+=======
+  var dwarvesString = ""
+  for(i=0; i < dwarves.length; i++){
+    dwarvesString += i+1+"."+dwarves[i]+" ";
+>>>>>>> cd530a30c5be235c6229097a92aaab26cd49a428
   }
   return dwarvesString
 }
 
 function summonCaptainPlanet(planeteerCalls){
+<<<<<<< HEAD
   var planeteer = [];
   for(let i=0; i < planeteerCalls.length; i++){
     planeteer.push(planeteerCalls[i].toUpperCase() + "!")
   }
   return planeteer
+=======
+  
+>>>>>>> cd530a30c5be235c6229097a92aaab26cd49a428
 }
 
 function longPlaneteerCalls(words) {
