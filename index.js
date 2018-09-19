@@ -1,5 +1,5 @@
 function dwarfRollCall(dwarves) {
-<<<<<<< HEAD
+
   var dwarvesString = "";
   for(let i=0; i < dwarves.length; i++){
     dwarvesString += i+1+". "+dwarves[i]+" ";
