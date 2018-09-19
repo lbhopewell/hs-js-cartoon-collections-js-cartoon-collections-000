@@ -38,10 +38,12 @@ function findTheCheese (foods) {
 
 function wordsWithB(words) {
   var newArray = [];
-  for (let i = 0; i , words.length; i++){
+  for (let i = 0; i < words.length; i++){
     if(words[i][0] === 'b'){
       newArray.push(words[i])
     }
-  return newArray
+  
   }
+  return newArray
 }
+
