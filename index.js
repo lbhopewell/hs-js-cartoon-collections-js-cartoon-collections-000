@@ -15,8 +15,6 @@ function summonCaptainPlanet(planeteerCalls){
     planeteer.push(planeteerCalls[i].toUpperCase() + "!")
   }
   return planeteer
-
->>>>>>> cd530a30c5be235c6229097a92aaab26cd49a428=======
   
 }
 
@@ -36,4 +34,14 @@ function findTheCheese (foods) {
     if(foods[i] === "camembert") return "camembert";
   }
   return "no cheese!"
+}
+
+function wordsWithB(words) {
+  var newArray = [];
+  for (let i = 0; i , words.length; i++){
+    if(words[i][0] === 'b'){
+      newArray.push(words[i])
+    }
+  return newArray
+  }
 }
