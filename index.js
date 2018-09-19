@@ -15,9 +15,9 @@ function summonCaptainPlanet(planeteerCalls){
     planeteer.push(planeteerCalls[i].toUpperCase() + "!")
   }
   return planeteer
-=======
+
+>>>>>>> cd530a30c5be235c6229097a92aaab26cd49a428=======
   
->>>>>>> cd530a30c5be235c6229097a92aaab26cd49a428
 }
 
 function longPlaneteerCalls(words) {
