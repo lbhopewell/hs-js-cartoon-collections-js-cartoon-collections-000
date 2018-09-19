@@ -3,11 +3,7 @@ function dwarfRollCall(dwarves) {
   var dwarvesString = "";
   for(let i=0; i < dwarves.length; i++){
     dwarvesString += i+1+". "+dwarves[i]+" ";
-=======
-  var dwarvesString = ""
-  for(i=0; i < dwarves.length; i++){
-    dwarvesString += i+1+"."+dwarves[i]+" ";
->>>>>>> cd530a30c5be235c6229097a92aaab26cd49a428
+
   }
   return dwarvesString
 }
